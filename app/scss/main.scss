@@ -10,17 +10,17 @@ body{
 }
 @font-face {
   font-family: HelBold;
-  src: url(../font/helvetica-neue-bold.ttf);
+  src: url(../font/helvetica-neue-bold.woff2);
   font-display: auto;
 }
 @font-face {
   font-family: PTSRegular;
-  src: url(../font/PT-Sans-Regular.ttf);
+  src: url(../font/PT-Sans-Regular.woff2);
   font-display: auto;
 }
 @font-face {
   font-family: PTSBold;
-  src: url(../font/PT_Sans-Web-Bold.ttf);
+  src: url(../font/PTSans-Web-Bold.woff2);
   font-display: auto;
 }
 .container1{
@@ -123,7 +123,6 @@ body{
   display: inline-block;
   margin-top: 40px;
   margin-right: 38px;
-  font-size: 45px;
 }
 .line3{
   width: $width;
