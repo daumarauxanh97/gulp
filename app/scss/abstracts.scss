@@ -1,0 +1,27 @@
+//variables
+$yellow:rgb(252,219,0);
+$black:black;
+$white:white;
+$width:940px;
+//mixin
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-column{
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+@mixin flex-around{
+  display: flex;
+  justify-content: space-around;
+}

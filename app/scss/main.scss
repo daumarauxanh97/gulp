@@ -1,0 +1,269 @@
+@import 'abstracts.scss';
+body{
+  min-width: 1400px;
+  margin:  0 auto;
+  background-color: #0e0e0e;
+}
+.container{
+  width: 1400px;
+  margin: auto;
+}
+@font-face {
+  font-family: HelBold;
+  src: url(../font/helvetica-neue-bold.ttf);
+}
+@font-face {
+  font-family: PTSRegular;
+  src: url(../font/PT-Sans-Regular.ttf);
+}
+@font-face {
+  font-family: PTSBold;
+  src: url(../font/PT_Sans-Web-Bold.ttf);
+}
+.container1{
+  width: 100%;
+  height: 740px;
+  background-color: $yellow;
+     .content1{
+      width: 940px;
+      margin: auto;
+      padding: 50px;
+     }
+}
+.container2{
+  width: 100%;
+  height: 775px;
+  background-color: $white;
+}
+.container3{
+  width: 100%;
+  height: 767px;
+  background-color: $black;
+}
+.line1{
+  width: $width;
+  margin: auto;
+  @include flex-row;
+  height: 110px;
+}
+.left{
+  width: 580px;
+  padding-left: 10px;
+}
+.fingerprint{
+  float: left;
+}
+.right{
+  width: 360px;
+  @include  flex-row;
+  font-size: 22px;
+}
+.rightcontent{
+  margin-right: 72px;
+  font-family: HelBold, sans-serif;
+  font-weight: bolder;
+}
+.rightcontent:first-child{
+  font-family: 'PT Sans ', sans-serif;
+  letter-spacing: -1px;
+}
+.rightcontent:last-child{
+  margin-right: 0px;
+}
+.line2{
+  @include flex-row;
+  height: 470px;
+}
+.text1{
+  margin-top: 70px;
+  font-size: 32px;
+  font-family: 'PTSBold', sans-serif;
+  font-weight: bold;
+
+}
+.text2{
+  color: #313841;
+  font-size: 20px;
+  font-family: Myriad Pro, sans-serif;
+  width: 310px;
+}
+.text3{
+  color: #736c4d;
+  margin-top: 20px;
+  font-family: Myriad Pro, sans-serif;
+  width: 400px;
+}
+.phonecontainer{
+  @include flex-center;
+  width: 320px;
+  height:470px;
+  background-color: $white;
+  border-radius: 5%;
+}
+.phonecontent{
+  @include flex-center;
+  width: 290px;
+  height:385px;
+  background-color: $black;
+    p{
+      font-size: 28px;
+      color: $yellow;
+      font-family: 'PT Sans', sans-serif;
+      padding-bottom: 20px;
+      padding-left:5px;
+    }
+    img{
+      padding-bottom: 20px;
+    }
+}
+.icon{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 38px;
+  font-size: 45px;
+}
+.line3{
+  width: $width;
+  height: 110px;
+  @include  flex-center;
+}
+.dot{
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #feed80;
+
+}
+.dot:first-child{
+  background-color: $white;
+}
+.content2{
+  width: $width;
+  margin: auto;
+}
+.row1{
+  padding-top:70px;
+  width: 740px;
+  margin: auto;
+  height: 140px;
+}
+.center{
+  @include flex-center;
+  text-align: center;
+}
+.center:first-child{
+  font-family:'PTSBold', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color:$black;
+}
+.center:nth-child(2){
+  font-family:'PTSRegular', sans-serif;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.row2{
+  padding-top:70px;
+  width: $width;
+  margin: auto;
+  @include flex-between;
+}
+.flex-row{
+  width: 270px;
+  @include flex-row;
+}
+.ptsr{
+  font-family:'PTSRegular', sans-serif;
+}
+.bold{
+  font-weight: bold;
+  font-size: 22px;
+}
+.mab{
+  margin-bottom: 10px;
+}
+.mar{
+  margin-right:15px;
+}
+.color929292{
+  color: #313841;
+}
+.color898989{
+  color:#898989;
+}
+.color2{
+  color: #313841;
+}
+.center1 {
+  @include flex-center;
+  text-align: center;
+  //:first-child {
+  //    font-family: 'PTSBold', sans-serif;
+  //    font-size: 32px;
+  //    font-weight: bold;
+  //    color: #fcdb00;
+  //    margin-bottom: 10px;
+  //  }
+  //:nth-child(2){
+  //    font-family:'PTSRegular', sans-serif;
+  //    font-size: 20px;
+  //    margin-top: -30px;
+  //    color: #898989;
+  //  }
+}
+.center1:first-child {
+  font-family: 'PTSBold', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: $yellow;
+  margin-bottom: 10px;
+}
+.center1:nth-child(2){
+  font-family:'PTSRegular';
+  font-size: 20px;
+  margin-top: -30px;
+  color: #898989;
+}
+.row3{
+  padding-top:40px;
+  width: 740px;
+  margin: auto;
+  height: 55px;
+  @include flex-row;
+}
+.input{
+  font-family:'PTSRegular', sans-serif;
+  border-radius: 7px;
+  flex: 1;
+  font-size: 16px;
+  margin-right: 15px;
+  padding-left: 20px;
+}
+.submit{
+  border-radius: 7px;
+  width: 130px;
+  height: 55px;
+  background-color: $yellow;
+  @include flex-center;
+  font-family:'PTSBold';
+}
+.row4{
+  padding-top:70px;
+  width: 260px;
+  margin: auto;
+  height: 45px;
+  @include flex-around;
+}
+.row5{
+  padding-top:100px;
+  width: 960px;
+  margin: auto;
+  height: 120px;
+  @include flex-around;
+}
+.col1{
+  color: #d4d4d4;
+  font-family:'PTSRegular';
+}
+
