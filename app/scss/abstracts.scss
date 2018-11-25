@@ -1,8 +1,18 @@
 //variables
+//colors
 $yellow:rgb(252,219,0);
 $black:black;
 $white:white;
+//width-height
 $width:940px;
+//font-size
+$fs16:16px;
+$fs18:18px;
+$fs20:20px;
+$fs22:22px;
+$fs28:28px;
+$fs30:30px;
+$fs32:32px;
 //mixin
 @mixin flex-center{
   display: flex;

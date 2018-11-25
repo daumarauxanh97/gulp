@@ -28,7 +28,7 @@ body{
   height: 740px;
   background-color: $yellow;
      .content1{
-      width: 940px;
+      width: $width;
       margin: auto;
       padding: 50px;
      }
@@ -59,7 +59,7 @@ body{
 .right{
   width: 360px;
   @include  flex-row;
-  font-size: 22px;
+  font-size: $fs22;
 }
 .rightcontent{
   margin-right: 72px;
@@ -79,14 +79,14 @@ body{
 }
 .text1{
   margin-top: 70px;
-  font-size: 32px;
+  font-size: $fs32;
   font-family: 'PTSBold', sans-serif;
   font-weight: bold;
 
 }
 .text2{
   color: #313841;
-  font-size: 20px;
+  font-size: $fs20;
   font-family: Myriad Pro, sans-serif;
   width: 310px;
 }
@@ -109,7 +109,7 @@ body{
   height:385px;
   background-color: $black;
     p{
-      font-size: 28px;
+      font-size: $fs28;
       color: $yellow;
       font-family: 'PT Sans', sans-serif;
       padding-bottom: 20px;
@@ -157,13 +157,13 @@ body{
 }
 .center:first-child{
   font-family:'PTSBold', sans-serif;
-  font-size: 32px;
+  font-size: $fs32;
   font-weight: bold;
   color:$black;
 }
 .center:nth-child(2){
   font-family:'PTSRegular', sans-serif;
-  font-size: 20px;
+  font-size: $fs20;
   margin-top: -30px;
 }
 .row2{
@@ -181,7 +181,7 @@ body{
 }
 .bold{
   font-weight: bold;
-  font-size: 22px;
+  font-size: $fs22;
 }
 .mab{
   margin-bottom: 10px;
@@ -204,14 +204,14 @@ body{
 }
 .center1:first-child {
   font-family: 'PTSBold', sans-serif;
-  font-size: 32px;
+  font-size: $fs32;
   font-weight: bold;
   color: $yellow;
   margin-bottom: 10px;
 }
 .center1:nth-child(2){
   font-family:'PTSRegular';
-  font-size: 20px;
+  font-size: $fs20;
   margin-top: -30px;
   color: #898989;
 }
@@ -226,7 +226,7 @@ body{
   font-family:'PTSRegular', sans-serif;
   border-radius: 7px;
   flex: 1;
-  font-size: 16px;
+  font-size: $fs16;
   margin-right: 15px;
   padding-left: 20px;
 }
