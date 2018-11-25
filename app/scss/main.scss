@@ -201,19 +201,6 @@ body{
 .center1 {
   @include flex-center;
   text-align: center;
-  //:first-child {
-  //    font-family: 'PTSBold', sans-serif;
-  //    font-size: 32px;
-  //    font-weight: bold;
-  //    color: #fcdb00;
-  //    margin-bottom: 10px;
-  //  }
-  //:nth-child(2){
-  //    font-family:'PTSRegular', sans-serif;
-  //    font-size: 20px;
-  //    margin-top: -30px;
-  //    color: #898989;
-  //  }
 }
 .center1:first-child {
   font-family: 'PTSBold', sans-serif;
