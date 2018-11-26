@@ -21,4 +21,4 @@ Cấu trúc cơ bản của 1 project html với sass
 
 - [gulp-frontend_1.5](https://daumarauxanh97.github.io/gulp/app/index.html)
 
-- [gulp-frontend_1.6](https://github.com/daumarauxanh97/gulp1-6/blob/master/README.md)
+- [gulp-frontend_1.6](https://github.com/daumarauxanh97/gulp1-6)
